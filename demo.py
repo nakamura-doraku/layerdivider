@@ -175,7 +175,7 @@ class webui:
                 outputs=[SAM_output]
             )
 
-        self.demo.queue()
+        #self.demo.queue()
         self.demo.launch(share=share)
 
 
